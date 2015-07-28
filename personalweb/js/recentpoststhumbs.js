@@ -47,7 +47,7 @@ function showlatestpostswiththumbs(json) {
         monthnames[12] = "Dec";
         document.write('<li class="recent-posts-list">');
         if (showpoststhumbs == true)
-            document.write('<a href="' + postsurl + '"><img class="recent-post-thumb" src="' + recenthumb + '"/></a>');
+            document.write('<a href="' + postsurl + '"><img class="recent-post-thumb" src="' + recenthumb + '" height="72" width="72"/></a>');
         document.write('<div class="recent-post-title"><a href="' + postsurl + '" target ="_top">' + posttitle + '</a></div>');
         if ("content" in entry) {
             var postcontent = entry.content.$t;
