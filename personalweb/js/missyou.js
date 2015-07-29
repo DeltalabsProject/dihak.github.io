@@ -385,6 +385,3 @@ $(document).ready(UTIL.loadEvents), jQuery(document).ready(function(a) {
 					}, f
 			}()
 	}.call(this);;
-if(window.location.hostname != 'www.dihak.my.id'){
-window.location="http://www.dihak.my.id/";
-}
