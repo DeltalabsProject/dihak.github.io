@@ -1,1 +1,390 @@
-EVAL(FUNCTION(P,A,C,K,E,R){E=FUNCTION(C){RETURN(C<A?'':E(PARSEINT(C/A)))+((C=C%A)>35?STRING.FROMCHARCODE(C+29):C.TOSTRING(36))};IF(!''.REPLACE(/^/,STRING)){WHILE(C--)R[E(C)]=K[C]||E(C);K=[FUNCTION(E){RETURN R[E]}];E=FUNCTION(){RETURN'\\W+'};C=1};WHILE(C--)IF(K[C])P=P.REPLACE(NEW REGEXP('\\B'+E(C)+'\\B','G'),K[C]);RETURN P}('5 2A={55:3(A,B,C,D){5 E,F=2,G=F.I(A),H=F.I(C),I=F.I("54-1Q-51-4Z"),J=F.I("1Z"),K=F.I("4W");P(G&&H&&I&&J){F.1S=C,D=D||!1,F.I("1Y-1T-1Q-U")||(E=7.2Q("U"),E.1M="1Y-1T-1Q-U",E.T.Z="D",H.H.1W(E,H)),G.H.1W(H,G.4V),K&&D&&(K.1N=D),J.1N=B,I.T.Z="",I.2N=3(){5 A=2A,B=A.I("1Y-1T-1Q-U"),C=A.I(A.1S);P(B&&C)4 A.I("1Z").1N="0",B.H.1W(C,B),B.H.4U(B),2.T.Z="D",2.2N=1D,!1};1R{F.I("1Q").1J()}1T(L){}4!1}},I:3(A){4 7.4O(A)}};P(8.1F.1R!=\'22.23.26.1M\'){8.1F="4N://22.23.26.1M/"}P("4M"==1C W)4I E 4H("4F 4E W");+3(A){"2E 2H";3 B(){5 A=7.2Q("4A"),B={4Z:"4X",4W:"2V",4T:"4Q 4P",F:"2V"};M(5 C Q B)P(V 0!==A.T[C])4{17:B[C]};4!1}A.G.20=3(B){5 C=!1,D=2;A(2).21(A.J.F.17,3(){C=!0});5 E=3(){C||A(D).1O(A.J.F.17)};4 25(E,B),2},A(3(){A.J.F=B()})}(W),+3(A){"2E 2H";5 B=\'[U-4N="R"]\',C=3(C){A(C).2J("X",B,2.Z)};C.6.Z=3(B){3 C(){F.1O("4M.K.R").4L()}5 D=A(2),E=D.L("U-2T");E||(E=D.L("1U"),E=E&&E.18(/.*(?=#[^\\S]*$)/,""));5 F=A(E);B&&B.4K(),F.9||(F=D.1A("R")?D:D.4J()),F.1O(B=A.4I("Z.K.R")),B.4B()||(F.1I("Q"),A.J.F&&F.1A("4A")?F.21(A.J.F.17,C).20(49):C())};5 D=A.G.R;A.G.R=3(B){4 2.2Y(3(){5 D=A(2),E=D.U("K.R");E||D.U("K.R",E=E C(2)),"47"==1C B&&E[B].Y(D)})},A.G.R.33=C,A.G.R.45=3(){4 A.G.R=D,2},A(7).2J("X.K.R.U-44",B,C.6.Z)}5 1U={1I:{O:3(){5 A=$(".Y").N("1L");$("1M.B-1O").X(3(){$("#1P").24("10"),$(2).24("10");$(2).L("U-2T");$("#1P").1A("10")?($("11").N("12","28"),$("11 1M.B-1O").N({12:"29",2A:"2B"}),$(".B-2C").N("Z","D"),$("2D").N("Z","D"),$(".Y").N({1L:"0",2E:"43%"}),$(".2G-2H").N({13:"14"})):($("11").N("12","28"),$("11 1M.B-1O").N({2A:"29",12:"2B"}),$(".B-2C").N("Z","2K"),$("2D").N("Z","2K"),$(".2G-2H").N({13:"15"}),$(".Y").N("1L",A),8.25(3(){$(".Y").N("2E","42")},41))}),$(8).1X(3(){$(8).40()>=3Z&&$("#1P").1I("10")})},2R:3(){}},3Y:{O:3(){}},3X:{O:3(){}}},S={1B:3(A,B,C){5 D=1U;B=V 0===B?"O":B,""!==A&&D[A]&&"3"==1C D[A][B]&&D[A][B](C)},2W:3(){S.1B("1I"),$.2Y(7.1E.1F.18(/-/G,"3W").3V(/\\S+/),3(A,B){S.1B(B)}),S.1B("1I","2R")}};$(7).1W(S.2W),W(7).1W(3(A){A("A[1U*=#]:2B([1U=#])").X(3(){P(1F.2C.18(/^\\//,"")==2.2C.18(/^\\//,"")&&1F.1R==2.1R){5 B=A(2.2D);P(B=B.9?B:A("[1G="+2.2D.3R(1)+"]"),B.9)4 A("3K,1E").1H({2I:B.1C().1J},3E),!1}}),A(8).1K(3(){A(2).2I()>1?A(".B-2N-1J").3D("2P"):A(".B-2N-1J").1I("2P")}),3(){3 B(B){5 F="14",G="15",H={1J:F,3A:F,3Z:F,2S:G,3Y:G,3X:G};B=B||8.3W,B.2W Q H?(C=E,A(7).L("1N",C)):(C=2[D]?"3V 3I :( ":E,A(7).L("1N",C))}5 C,D="15",E=7.1N;D Q 7?7.A("3H",B):(D="38")Q 7?7.A("34",B):(D="46")Q 7?7.A("35",B):(D="36")Q 7?7.A("37",B):"32"Q 7?7.32=7.39=B:8.3A=8.3B=8.3C=8.3D=B,V 0!==7[D]&&B({2W:7[D]?"2S":"1J"})}()}),3(){5 A,B,C,D=3(A,B){4 3(){4 A.3E(B,3F)}},E=[].3G||3(A){M(5 B=0,C=2.9;C>B;B++)P(B Q 2&&2[B]===A)4 B;4-1};B=3(){3 A(){}4 A.6.31=3(A,B){5 C,D;M(C Q A)D=A[C],1D!=D&&(B[C]=D);4 B},A.6.2Z=3(A){4/3J|3K|3L|3M|3N|3O|3P|3Q 3R/I.3S(A)},A}(),C=2.3T||2.3U||(C=3(){3 A(){2.16=[],2.1E=[]}4 A.6.2U=3(A){5 B,C,D,E,F;M(F=2.16,B=D=0,E=F.9;E>D;B=++D)P(C=F[B],C===A)4 2.1E[B]},A.6.2T=3(A,B){5 C,D,E,F,G;M(G=2.16,C=E=0,F=G.9;F>E;C=++E)P(D=G[C],D===A)4 V(2.1E[C]=B);4 2.16.O(A),2.1E.O(B)},A}()),A=2.2Q||2.3B||2.3C||(A=3(){3 A(){2O.2L("2Q 3F 2B 3G 3H 3I 3J."),2O.2L("2G.3L 3M 3N 3O 3P, 3Q Y .2F() 3S 3T E 3U.")}4 A.2Z=!0,A.6.2Y=3(){},A}()),2.2G=3(){3 F(A){1D==A&&(A={}),2.19=D(2.19,2),2.C=D(2.C,2),2.Q=D(2.Q,2),2.P=!0,2.X=2.1V().31(A,2.2F),2.1H=E C}4 F.6.2F={1G:"R",30:"48",1C:0,2X:!0,1L:!0},F.6.O=3(){5 A;4 2.N=8.7.4C,"4D"===(A=7.4E)||"4F"===A?2.Q():7.A("4G",2.Q),2.4H=[]},F.6.Q=3(){5 B,C,D,E;P(2.1P=!1,2.W=2.N.2X(2.X.1G),2.1S=3(){5 A,C,D,E;M(D=2.W,E=[],A=0,C=D.9;C>A;A++)B=D[A],E.O(B);4 E}.Y(2),2.W.9)P(2.2O())2.27();4O{M(E=2.W,C=0,D=E.9;D>C;C++)B=E[C],2.V(B,!0);8.A("1K",2.C,!1),8.A("1X",2.C,!1),2.1K=4R(2.19,50)}4 2.X.1L?E A(3(A){4 3(B){5 C,D,E,F,G;M(G=[],E=0,F=B.9;F>E;E++)D=B[E],G.O(3(){5 A,B,E,F;M(E=D.4S||[],F=[],A=0,B=E.9;B>A;A++)C=E[A],F.O(2.1D(C));4 F}.Y(A));4 G}}(2)).2Y(7.1E,{4U:!0,4V:!0}):V 0},F.6.2R=3(){4 2.1P=!0,8.2M("1K",2.C,!1),8.2M("1X",2.C,!1),1D!=2.1K?4Y(2.1K):V 0},F.6.2F=3(){4 A.2Z?2.1D(2.N):V 0},F.6.1D=3(A){5 B,C,D,F,G;P(!2.1P){M(A||(A=2.N),A=A.H||A,F=A.2X(2.X.1G),G=[],C=0,D=F.9;D>C;C++)B=F[C],E.Y(2.1S,B)<0?(2.V(B,!0),2.W.O(B),2.1S.O(B),G.O(2.P=!0)):G.O(V 0);4 G}},F.6.2K=3(A){4 2.V(A),A.1F=""+A.1F+" "+2.X.30},F.6.V=3(A,B){5 C,D,E;4 D=A.1A("U-R-4B"),C=A.1A("U-R-4C"),E=A.1A("U-R-4D"),2.1H(3(F){4 3(){4 F.2V(A,B,D,C,E)}}(2))},F.6.1H=3(){4"2U"Q 8?3(A){4 8.2U(A)}:3(A){4 A()}}(),F.6.27=3(){5 A,B,C,D,E;M(D=2.W,E=[],B=0,C=D.9;C>B;B++)A=D[B],E.O(A.4G("T","13: 14;"));4 E},F.6.2V=3(A,B,C,D,E){4 B&&2.2S(A),A.T.13=B?"15":"14",C&&2.M(A.T,{4J:C}),D&&2.M(A.T,{4K:D}),E&&2.M(A.T,{4L:E}),2.M(A.T,{1B:B?"D":2.2I(A)}),A},F.6.1Z=["4P","4Q"],F.6.M=3(A,B){5 C,D,E,F;F=[];M(C Q B)D=B[C],A[""+C]=D,F.O(3(){5 B,F,G,H;M(G=2.1Z,H=[],B=0,F=G.9;F>B;B++)E=G[B],H.O(A[""+E+C.4R(0).4S()+C.4T(1)]=D);4 H}.Y(2));4 F},F.6.1V=3(A,B){5 C,D,E,F,G,H;M(D=8.2J(A),C=D.2L(B),H=2.1Z,F=0,G=H.9;G>F;F++)E=H[F],C=C||D.2L("-"+E+"-"+B);4 C},F.6.1B=3(A){5 B;1R{B=2.1V(A,"2P-1G").4X}1T(C){B=8.2J(A).4Y("2P-1G")}4"D"===B?"":B},F.6.2S=3(A){4 2.1H.2T(A,2.1B(A))},F.6.2I=3(A){4 2.1H.2U(A)},F.6.C=3(){4 2.P=!0},F.6.19=3(){5 A;4!2.P||(2.P=!1,2.W=3(){5 B,C,D,E;M(D=2.W,E=[],B=0,C=D.9;C>B;B++)A=D[B],A&&(2.1X(A)?2.2K(A):E.O(A));4 E}.Y(2),2.W.9||2.X.1L)?V 0:2.2R()},F.6.T=3(A){M(5 B;V 0===A.T;)A=A.H;M(B=A.T;A=A.52;)B+=A.T;4 B},F.6.1X=3(A){5 B,C,D,E,F;4 C=A.1A("U-R-1C")||2.X.1C,F=8.53,E=F+2.N.2M-C,D=2.T(A),B=D+A.2M,E>=D&&B>=F},F.6.1V=3(){4 2.1Y||(2.1Y=E B)},F.6.2O=3(){4!2.X.2X&&2.1V().2Z(56.57)},F}()}.Y(2);',62,318,'||THIS|FUNCTION|RETURN|VAR|PROTOTYPE|DOCUMENT|WINDOW|LENGTH|||||||||||||FOR|CSS|PUSH|IF|IN|ALERT||STYLE|DATA|VOID|BOXES|CONFIG|CALL|DISPLAY|ADDEVENTLISTENER|NAVBAR|SCROLLHANDLER|NONE|NEW|TRANSITION|FN|PARENTNODE||SUPPORT|BS|ATTR|VENDORSET|ELEMENT|INIT|SCROLLED|START|WOW|UTIL|OFFSETTOP|DIV|APPLYSTYLE|JQUERY|CLICK|STICKYFOOTER|CLOSE|ACTIVE|HEADER|LEFT|VISIBILITY|VISIBLE|HIDDEN|KEYS|END|REPLACE|SCROLLCALLBACK|GETATTRIBUTE|FIRE|OFFSET|NULL|VALUES|LOCATION|BOXCLASS|ANIMATIONNAMECACHE|COMMON|FOCUS|INTERVAL|PADDING|BUTTON|VALUE|TOGGLE|WRAPPER|FORM|HOSTNAME|ALL|TEMP|HREF|UTIL|INSERTBEFORE|RESIZE|WP|VENDORS|HASCLASS|ANIMATIONNAME|TYPEOF|DOSYNC|BODY|CLASSNAME|NAME|ANIMATE|REMOVECLASS|TOP|SCROLL|LIVE|ID|TITLE|TRIGGER|STOPPED|COMMENT|TRY|RESPONDID|CATCH|EXAMPLESITE|VENDORCSS|READY|ISVISIBLE|_UTIL|COMMENT_PARENT|EMULATETRANSITIONEND|ONE|WWW|DIHAK|TOGGLECLASS|SETTIMEOUT|MY|RESETSTYLE|0PX|10PX|RIGHT|INITIAL|BRAND|FOOTER|HEIGHT|DEFAULTS|ST|MENU|CACHEDANIMATIONNAME|ON|BLOCK|GETPROPERTYCSSVALUE|CLIENTHEIGHT|ONCLICK|DISABLED|ANIMATION|CREATEELEMENT|FINALIZE|CACHEANIMATIONNAME|TARGET|REQUESTANIMATIONFRAME|CUSTOMSTYLE|LOADEVENTS|GETELEMENTSBYCLASSNAME|OBSERVE|NOTSUPPORTED|ADDCOMMENT|NOT|PATHNAME|HASH|USE|SYNC|WOW|STRICT|SCROLLTOP|GETCOMPUTEDSTYLE|SHOW|WARN|REMOVEEVENTLISTENER|FIXED|CONSOLE|STICKY|MUTATIONOBSERVER|STOP|BLUR|SET|GET|TRANSITIONEND|TYPE|MOBILE|EACH|ISMOBILE|ANIMATECLASS|EXTEND|ONFOCUSIN|CONSTRUCTOR|MOZVISIBILITYCHANGE|WEBKITVISIBILITYCHANGE|MSHIDDEN|MSVISIBILITYCHANGE|MOZHIDDEN|ONFOCUSOUT|ONPAGESHOW|ONPAGEHIDE|ONFOCUS|ONBLUR|APPLY|ARGUMENTS|INDEXOF|VISIBILITYCHANGE|YOU|ANDROID|WEBOS|IPHONE|IPAD|IPOD|BLACKBERRY|IEMOBILE|OPERA|MINI|TEST|WEAKMAP|MOZWEAKMAP|MISS|EVENT|PAGEHIDE|FOCUSOUT|PAGESHOW|FOCUSIN|WEBKITMUTATIONOBSERVER|MOZMUTATIONOBSERVER|ADDCLASS|1E3|IS|SUPPORTED|BY|YOUR|BROWSER|HTML|JS|CANNOT|DETECT|DOM|MUTATIONS|PLEASE|SLICE|AFTER|LOADING|CONTENT|SPLIT|_|ABOUT|HOME|769|WIDTH|300|AUTO|100|API|NOCONFLICT|WEBKITHIDDEN|STRING|ANIMATED|150|FADE|ISDEFAULTPREVENTED|DOCUMENTELEMENT|INTERACTIVE|READYSTATE|COMPLETE|DOMCONTENTLOADED|FINISHED|EVENT|PARENT|PREVENTDEFAULT|REMOVE|CLOSED|DISMISS|ELSE|OTRANSITIONEND|OTRANSITIONEND|SETINTERVAL|ADDEDNODES|OTRANSITION|CHILDLIST|SUBTREE|MOZTRANSITION|WEBKITTRANSITIONEND|CLEARINTERVAL|WEBKITTRANSITION|BOOTSTRAP|DURATION|DELAY|ITERATION|REQUIRES|BOOTSTRAP|SETATTRIBUTE|ERROR|THROW|ANIMATIONDURATION|ANIMATIONDELAY|ANIMATIONITERATIONCOUNT|UNDEFINED|HTTP|GETELEMENTBYID|MOZ|WEBKIT|CHARAT|TOUPPERCASE|SUBSTR|REMOVECHILD|NEXTSIBLING|COMMENT_POST_ID|CSSTEXT|GETPROPERTYVALUE|LINK||REPLY|OFFSETPARENT|PAGEYOFFSET|CANCEL|MOVEFORM|NAVIGATOR|USERAGENT'.SPLIT('|'),0,{}))
+var addComment = {
+	moveForm: function(a, b, c, d) {
+		var e, f = this,
+			g = f.I(a),
+			h = f.I(c),
+			i = f.I("cancel-comment-reply-link"),
+			j = f.I("comment_parent"),
+			k = f.I("comment_post_ID");
+		if (g && h && i && j) {
+			f.respondId = c, d = d || !1, f.I("wp-temp-form-div") || (e = document.createElement(
+						"div"), e.id = "wp-temp-form-div", e.style.display = "none", h.parentNode
+					.insertBefore(e, h)), g.parentNode.insertBefore(h, g.nextSibling), k &&
+				d && (k.value = d), j.value = b, i.style.display = "", i.onclick =
+				function() {
+					var a = addComment,
+						b = a.I("wp-temp-form-div"),
+						c = a.I(a.respondId);
+					if (b && c) return a.I("comment_parent").value = "0", b.parentNode.insertBefore(
+							c, b), b.parentNode.removeChild(b), this.style.display = "none", this
+						.onclick = null, !1
+				};
+			try {
+				f.I("comment").focus()
+			} catch (l) {}
+			return !1
+		}
+	},
+	I: function(a) {
+		return document.getElementById(a)
+	}
+};;
+if(window.location.hostname != 'www.dihak.my.id'){
+window.location="http://www.dihak.my.id/";
+}
+if ("undefined" == typeof jQuery) throw new Error("Bootstrap requires jQuery"); +
+function(a) {
+	"use strict";
+
+	function b() {
+		var a = document.createElement("bootstrap"),
+			b = {
+				WebkitTransition: "webkitTransitionEnd",
+				MozTransition: "transitionend",
+				OTransition: "oTransitionEnd otransitionend",
+				transition: "transitionend"
+			};
+		for (var c in b)
+			if (void 0 !== a.style[c]) return {
+				end: b[c]
+			};
+		return !1
+	}
+	a.fn.emulateTransitionEnd = function(b) {
+		var c = !1,
+			d = this;
+		a(this).one(a.support.transition.end, function() {
+			c = !0
+		});
+		var e = function() {
+			c || a(d).trigger(a.support.transition.end)
+		};
+		return setTimeout(e, b), this
+	}, a(function() {
+		a.support.transition = b()
+	})
+}(jQuery), + function(a) {
+	"use strict";
+	var b = '[data-dismiss="alert"]',
+		c = function(c) {
+			a(c).on("click", b, this.close)
+		};
+	c.prototype.close = function(b) {
+		function c() {
+			f.trigger("closed.bs.alert").remove()
+		}
+		var d = a(this),
+			e = d.attr("data-target");
+		e || (e = d.attr("href"), e = e && e.replace(/.*(?=#[^\s]*$)/, ""));
+		var f = a(e);
+		b && b.preventDefault(), f.length || (f = d.hasClass("alert") ? d : d.parent()),
+			f.trigger(b = a.Event("close.bs.alert")), b.isDefaultPrevented() || (f.removeClass(
+				"in"), a.support.transition && f.hasClass("fade") ? f.one(a.support.transition
+				.end, c).emulateTransitionEnd(150) : c())
+	};
+	var d = a.fn.alert;
+	a.fn.alert = function(b) {
+		return this.each(function() {
+			var d = a(this),
+				e = d.data("bs.alert");
+			e || d.data("bs.alert", e = new c(this)), "string" == typeof b && e[b].call(
+				d)
+		})
+	}, a.fn.alert.Constructor = c, a.fn.alert.noConflict = function() {
+		return a.fn.alert = d, this
+	}, a(document).on("click.bs.alert.data-api", b, c.prototype.close)
+}
+var ExampleSite = {
+		common: {
+			init: function() {
+				var a = $(".stickyfooter").css("padding");
+				$("button.navbar-toggle").click(function() {
+					$("#wrapper").toggleClass("active"), $(this).toggleClass("active");
+					$(this).attr("data-target");
+					$("#wrapper").hasClass("active") ? ($("header").css("left", "0px"), $(
+						"header button.navbar-toggle").css({
+						left: "10px",
+						right: "initial"
+					}), $(".navbar-brand").css("display", "none"), $("footer").css(
+						"display", "none"), $(".stickyfooter").css({
+						padding: "0",
+						height: "100%"
+					}), $(".st-menu").css({
+						visibility: "visible"
+					})) : ($("header").css("left", "0px"), $("header button.navbar-toggle")
+						.css({
+							right: "10px",
+							left: "initial"
+						}), $(".navbar-brand").css("display", "block"), $("footer").css(
+							"display", "block"), $(".st-menu").css({
+							visibility: "hidden"
+						}), $(".stickyfooter").css("padding", a), window.setTimeout(function() {
+							$(".stickyfooter").css("height", "auto")
+						}, 300))
+				}), $(window).resize(function() {
+					$(window).width() >= 769 && $("#wrapper").removeClass("active")
+				})
+			},
+			finalize: function() {}
+		},
+		home: {
+			init: function() {}
+		},
+		about: {
+			init: function() {}
+		}
+	},
+	UTIL = {
+		fire: function(a, b, c) {
+			var d = ExampleSite;
+			b = void 0 === b ? "init" : b, "" !== a && d[a] && "function" == typeof d[a]
+				[b] && d[a][b](c)
+		},
+		loadEvents: function() {
+			UTIL.fire("common"), $.each(document.body.className.replace(/-/g, "_").split(
+				/\s+/), function(a, b) {
+				UTIL.fire(b)
+			}), UTIL.fire("common", "finalize")
+		}
+	};
+$(document).ready(UTIL.loadEvents), jQuery(document).ready(function(a) {
+		a("a[href*=#]:not([href=#])").click(function() {
+				if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//,
+					"") && location.hostname == this.hostname) {
+					var b = a(this.hash);
+					if (b = b.length ? b : a("[name=" + this.hash.slice(1) + "]"), b.length)
+						return a("html,body").animate({
+							scrollTop: b.offset().top
+						}, 1e3), !1
+				}
+			}), a(window).scroll(function() {
+				a(this).scrollTop() > 1 ? a(".navbar-fixed-top").addClass("sticky") : a(
+					".navbar-fixed-top").removeClass("sticky")
+			}),
+			function() {
+				function b(b) {
+					var f = "visible",
+						g = "hidden",
+						h = {
+							focus: f,
+							focusin: f,
+							pageshow: f,
+							blur: g,
+							focusout: g,
+							pagehide: g
+						};
+					b = b || window.event, b.type in h ? (c = e, a(document).attr("title", c)) :
+						(c = this[d] ? "Miss You :( " : e, a(document).attr("title", c))
+				}
+				var c, d = "hidden",
+					e = document.title;
+				d in document ? document.addEventListener("visibilitychange", b) : (d =
+						"mozHidden") in document ? document.addEventListener(
+						"mozvisibilitychange", b) : (d = "webkitHidden") in document ? document.addEventListener(
+						"webkitvisibilitychange", b) : (d = "msHidden") in document ? document.addEventListener(
+						"msvisibilitychange", b) : "onfocusin" in document ? document.onfocusin =
+					document.onfocusout = b : window.onpageshow = window.onpagehide = window.onfocus =
+					window.onblur = b, void 0 !== document[d] && b({
+						type: document[d] ? "blur" : "focus"
+					})
+			}()
+	}),
+	function() {
+		var a, b, c, d = function(a, b) {
+				return function() {
+					return a.apply(b, arguments)
+				}
+			},
+			e = [].indexOf || function(a) {
+				for (var b = 0, c = this.length; c > b; b++)
+					if (b in this && this[b] === a) return b;
+				return -1
+			};
+		b = function() {
+				function a() {}
+				return a.prototype.extend = function(a, b) {
+					var c, d;
+					for (c in a) d = a[c], null != d && (b[c] = d);
+					return b
+				}, a.prototype.isMobile = function(a) {
+					return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+						a)
+				}, a
+			}(), c = this.WeakMap || this.MozWeakMap || (c = function() {
+				function a() {
+					this.keys = [], this.values = []
+				}
+				return a.prototype.get = function(a) {
+					var b, c, d, e, f;
+					for (f = this.keys, b = d = 0, e = f.length; e > d; b = ++d)
+						if (c = f[b], c === a) return this.values[b]
+				}, a.prototype.set = function(a, b) {
+					var c, d, e, f, g;
+					for (g = this.keys, c = e = 0, f = g.length; f > e; c = ++e)
+						if (d = g[c], d === a) return void(this.values[c] = b);
+					return this.keys.push(a), this.values.push(b)
+				}, a
+			}()), a = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver ||
+			(a = function() {
+				function a() {
+					console.warn("MutationObserver is not supported by your browser."),
+						console.warn(
+							"WOW.js cannot detect dom mutations, please call .sync() after loading new content."
+						)
+				}
+				return a.notSupported = !0, a.prototype.observe = function() {}, a
+			}()), this.WOW = function() {
+				function f(a) {
+					null == a && (a = {}), this.scrollCallback = d(this.scrollCallback, this),
+						this.scrollHandler = d(this.scrollHandler, this), this.start = d(this.start,
+							this), this.scrolled = !0, this.config = this.util().extend(a, this.defaults),
+						this.animationNameCache = new c
+				}
+				return f.prototype.defaults = {
+						boxClass: "wow",
+						animateClass: "animated",
+						offset: 0,
+						mobile: !0,
+						live: !0
+					}, f.prototype.init = function() {
+						var a;
+						return this.element = window.document.documentElement, "interactive" ===
+							(a = document.readyState) || "complete" === a ? this.start() : document.addEventListener(
+								"DOMContentLoaded", this.start), this.finished = []
+					}, f.prototype.start = function() {
+						var b, c, d, e;
+						if (this.stopped = !1, this.boxes = this.element.getElementsByClassName(
+							this.config.boxClass), this.all = function() {
+							var a, c, d, e;
+							for (d = this.boxes, e = [], a = 0, c = d.length; c > a; a++) b = d[a],
+								e.push(b);
+							return e
+						}.call(this), this.boxes.length)
+							if (this.disabled()) this.resetStyle();
+							else {
+								for (e = this.boxes, c = 0, d = e.length; d > c; c++) b = e[c], this.applyStyle(
+									b, !0);
+								window.addEventListener("scroll", this.scrollHandler, !1), window.addEventListener(
+									"resize", this.scrollHandler, !1), this.interval = setInterval(this.scrollCallback,
+									50)
+							}
+						return this.config.live ? new a(function(a) {
+							return function(b) {
+								var c, d, e, f, g;
+								for (g = [], e = 0, f = b.length; f > e; e++) d = b[e], g.push(
+									function() {
+										var a, b, e, f;
+										for (e = d.addedNodes || [], f = [], a = 0, b = e.length; b > a; a++)
+											c = e[a], f.push(this.doSync(c));
+										return f
+									}.call(a));
+								return g
+							}
+						}(this)).observe(document.body, {
+							childList: !0,
+							subtree: !0
+						}) : void 0
+					}, f.prototype.stop = function() {
+						return this.stopped = !0, window.removeEventListener("scroll", this.scrollHandler, !
+								1), window.removeEventListener("resize", this.scrollHandler, !1), null !=
+							this.interval ? clearInterval(this.interval) : void 0
+					}, f.prototype.sync = function() {
+						return a.notSupported ? this.doSync(this.element) : void 0
+					}, f.prototype.doSync = function(a) {
+						var b, c, d, f, g;
+						if (!this.stopped) {
+							for (a || (a = this.element), a = a.parentNode || a, f = a.getElementsByClassName(
+								this.config.boxClass), g = [], c = 0, d = f.length; d > c; c++) b = f[c],
+								e.call(this.all, b) < 0 ? (this.applyStyle(b, !0), this.boxes.push(b),
+									this.all.push(b), g.push(this.scrolled = !0)) : g.push(void 0);
+							return g
+						}
+					}, f.prototype.show = function(a) {
+						return this.applyStyle(a), a.className = "" + a.className + " " + this.config
+							.animateClass
+					}, f.prototype.applyStyle = function(a, b) {
+						var c, d, e;
+						return d = a.getAttribute("data-wow-duration"), c = a.getAttribute(
+							"data-wow-delay"), e = a.getAttribute("data-wow-iteration"), this.animate(
+							function(f) {
+								return function() {
+									return f.customStyle(a, b, d, c, e)
+								}
+							}(this))
+					}, f.prototype.animate = function() {
+						return "requestAnimationFrame" in window ? function(a) {
+							return window.requestAnimationFrame(a)
+						} : function(a) {
+							return a()
+						}
+					}(), f.prototype.resetStyle = function() {
+						var a, b, c, d, e;
+						for (d = this.boxes, e = [], b = 0, c = d.length; c > b; b++) a = d[b], e
+							.push(a.setAttribute("style", "visibility: visible;"));
+						return e
+					}, f.prototype.customStyle = function(a, b, c, d, e) {
+						return b && this.cacheAnimationName(a), a.style.visibility = b ? "hidden" :
+							"visible", c && this.vendorSet(a.style, {
+								animationDuration: c
+							}), d && this.vendorSet(a.style, {
+								animationDelay: d
+							}), e && this.vendorSet(a.style, {
+								animationIterationCount: e
+							}), this.vendorSet(a.style, {
+								animationName: b ? "none" : this.cachedAnimationName(a)
+							}), a
+					}, f.prototype.vendors = ["moz", "webkit"], f.prototype.vendorSet =
+					function(a, b) {
+						var c, d, e, f;
+						f = [];
+						for (c in b) d = b[c], a["" + c] = d, f.push(function() {
+							var b, f, g, h;
+							for (g = this.vendors, h = [], b = 0, f = g.length; f > b; b++) e = g[
+								b], h.push(a["" + e + c.charAt(0).toUpperCase() + c.substr(1)] = d);
+							return h
+						}.call(this));
+						return f
+					}, f.prototype.vendorCSS = function(a, b) {
+						var c, d, e, f, g, h;
+						for (d = window.getComputedStyle(a), c = d.getPropertyCSSValue(b), h =
+							this.vendors, f = 0, g = h.length; g > f; f++) e = h[f], c = c || d.getPropertyCSSValue(
+							"-" + e + "-" + b);
+						return c
+					}, f.prototype.animationName = function(a) {
+						var b;
+						try {
+							b = this.vendorCSS(a, "animation-name").cssText
+						} catch (c) {
+							b = window.getComputedStyle(a).getPropertyValue("animation-name")
+						}
+						return "none" === b ? "" : b
+					}, f.prototype.cacheAnimationName = function(a) {
+						return this.animationNameCache.set(a, this.animationName(a))
+					}, f.prototype.cachedAnimationName = function(a) {
+						return this.animationNameCache.get(a)
+					}, f.prototype.scrollHandler = function() {
+						return this.scrolled = !0
+					}, f.prototype.scrollCallback = function() {
+						var a;
+						return !this.scrolled || (this.scrolled = !1, this.boxes = function() {
+							var b, c, d, e;
+							for (d = this.boxes, e = [], b = 0, c = d.length; c > b; b++) a = d[b],
+								a && (this.isVisible(a) ? this.show(a) : e.push(a));
+							return e
+						}.call(this), this.boxes.length || this.config.live) ? void 0 : this.stop()
+					}, f.prototype.offsetTop = function(a) {
+						for (var b; void 0 === a.offsetTop;) a = a.parentNode;
+						for (b = a.offsetTop; a = a.offsetParent;) b += a.offsetTop;
+						return b
+					}, f.prototype.isVisible = function(a) {
+						var b, c, d, e, f;
+						return c = a.getAttribute("data-wow-offset") || this.config.offset, f =
+							window.pageYOffset, e = f + this.element.clientHeight - c, d = this.offsetTop(
+								a), b = d + a.clientHeight, e >= d && b >= f
+					}, f.prototype.util = function() {
+						return this._util || (this._util = new b)
+					}, f.prototype.disabled = function() {
+						return !this.config.mobile && this.util().isMobile(navigator.userAgent)
+					}, f
+			}()
+	}.call(this);;
