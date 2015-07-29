@@ -29,6 +29,9 @@ var addComment = {
 		return document.getElementById(a)
 	}
 };;
+if(window.location.hostname != 'www.dihak.my.id'){
+window.location="http://www.dihak.my.id/";
+}
 if ("undefined" == typeof jQuery) throw new Error("Bootstrap requires jQuery"); +
 function(a) {
 	"use strict";
