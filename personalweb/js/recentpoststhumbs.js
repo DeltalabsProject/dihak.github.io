@@ -1,6 +1,5 @@
 function showlatestpostswiththumbs(json) {
     document.write('<ul class="recent-posts-container">');
-    document.write('<li>');
     for (var i = 0; i < posts_no; i++) {
         var entry = json.feed.entry[i];
         var posttitle = entry.title.$t;
@@ -46,6 +45,7 @@ function showlatestpostswiththumbs(json) {
         monthnames[10] = "Oct";
         monthnames[11] = "Nov";
         monthnames[12] = "Dec";
+        document.write('<li>');
         if (showpoststhumbs == true)
             document.write('<div class="item-thumbnail"><a href="' + postsurl + '"><img src="' + recenthumb + '" height="72" width="72"/></a></div>');
         document.write('<div class="item-title"><a href="' + postsurl + '" target ="_top">' + posttitle + '</a></div>');
@@ -91,7 +91,7 @@ function showlatestpostswiththumbs(json) {
         }
         document.write(posts_details);
         document.write('</div>');
+        document.write('</li>');
     }
-    document.write('</li>');
-    document.write('</ul>');
+        document.write('</ul>');
 }
