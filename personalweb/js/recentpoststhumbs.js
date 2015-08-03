@@ -59,12 +59,12 @@ function showlatestpostswiththumbs(json) {
         postcontent = postcontent.replace(re, "");
         if (post_summary == true) {
             if (postcontent.length < summary_chars) {
-                document.write(postcontent);
+                document.write('<div class="item-snippet">' + postcontent + '</div>');
             } else {
                 postcontent = postcontent.substring(0, summary_chars);
                 var quoteEnd = postcontent.lastIndexOf(" ");
                 postcontent = postcontent.substring(0, quoteEnd);
-                document.write(postcontent + '...');
+                document.write('<div class="item-snippet">' + postcontent + '...' + '</div>');
             }
         }
         var posts_details = '';
