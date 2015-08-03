@@ -61,8 +61,8 @@ function helploggercomments(helplogger) {
             } else {
                 avatarClass = ""
             }
-            commentsHtml += "<div class=\"avatarImage " + avatarClass +
-                "\"><img class=\"" + avatarClass + "\" src=\"" +
+            commentsHtml += "<div class=\"item-thumbnail" +
+                "\"> + commentsHtml + <img class=\"" + avatarClass + "\" src=\"" +
                 authorAvatar + "\" alt=\"" + authorName + "\" width=\"" +
                 avatarSize + "\" height=\"" + avatarSize + "\"/></div>"
         }
