@@ -1,5 +1,6 @@
 function showlatestpostswiththumbs(json) {
     document.write('<ul class="recent-posts-container">');
+    document.write('<li>');
     for (var i = 0; i < posts_no; i++) {
         var entry = json.feed.entry[i];
         var posttitle = entry.title.$t;
@@ -91,5 +92,6 @@ function showlatestpostswiththumbs(json) {
         document.write(posts_details);
         document.write('</div>');
     }
+    document.write('</li>');
     document.write('</ul>');
 }
