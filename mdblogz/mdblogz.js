@@ -1,9 +1,3 @@
-var postperpage=6;
-var numshowpage=4;
-var upPageWord=" &#9668; ";
-var downPageWord=" &#9658; ";
-var home_page="/";
-var urlactivepage=location.href;
 var Script = function() {
     jQuery('.sidebar .sub-menu > a').click(function() {
         var last = jQuery('.sub-menu.open', $('.sidebar'));
@@ -40,5 +34,4 @@ function resizeThumb(parentID, size, size2) {
         image[i].height = size2;
     }
 }
-resizeThumb('PopularPosts1', 100, 70);
-resizeThumb('Blog1', 306, 180);
+resizeThumb('Blog1', 253, 170);
