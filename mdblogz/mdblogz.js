@@ -5,7 +5,6 @@ $('.post').each(function() {
 		$(this).find('.card-content').addClass(cl);
     }
 });
-var imgDefer=document.getElementsByTagName("img");for(var i=0;i<imgDefer.length;i++){if(imgDefer[i].getAttribute("data-src")){imgDefer[i].setAttribute("src",imgDefer[i].getAttribute("data-src"))}};
 function resizeThumb(parentID, size, size2) {
     var parent = document.getElementById(parentID),
         image = parent.getElementsByTagName('img');
