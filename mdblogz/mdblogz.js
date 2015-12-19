@@ -28,7 +28,7 @@ function resizeThumb(parentID, size, size2) {
     var parent = document.getElementById(parentID),
         image = parent.getElementsByTagName('img');
     for (var i = 0; i < image.length; i++) {
-        image[i].src = image[i].src.replace(/\/s72\-c/, "/s" + size + "");
+        image[i].src = image[i].src.replace("/s72-c/", "/w" + size + "-h" + size2 + "-c/");
         image[i].width = size;
         image[i].height = size2;
     }
