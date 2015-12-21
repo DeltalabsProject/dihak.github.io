@@ -52,7 +52,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 var avatar=$("#comments");
 avatar.find('.comment_avatar img').each(function() {
-var ava = $(this).attr('data-src');
-$(this).show().attr('data-src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
+var ava = $(this).attr('src');
+$(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 });
 //]]>
