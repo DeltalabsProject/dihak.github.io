@@ -1,4 +1,5 @@
 var imgDefer=document.getElementsByTagName("img");for(var i=0;i<imgDefer.length;i++){if(imgDefer[i].getAttribute("data-src")){imgDefer[i].setAttribute("src",imgDefer[i].getAttribute("data-src"))}};
+var olderLink=$("a.blog-pager-older-link").attr("href");$("a.blog-pager-older-link").load(olderLink+" .post-title:first",function(){var a=$("a.blog-pager-older-link").text();$("a.blog-pager-older-link").text(a)});var newerLink=$("a.blog-pager-newer-link").attr("href");$("a.blog-pager-newer-link").load(newerLink+" .post-title:first",function(){var a=$("a.blog-pager-newer-link:first").text();$("a.blog-pager-newer-link").text(a)})
 //<![CDATA[
 //Global setting
 Config.maxThreadDepth = 6; //Kedalaman tingkat threaded comment
