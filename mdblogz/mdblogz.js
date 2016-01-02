@@ -12,7 +12,7 @@ function resizeThumb(parentID, size) {
         image = parent.getElementsByTagName('img');
         size2 = $('.post').width()
     for (var i = 0; i < image.length; i++) {
-        image[i].src = image[i].src.replace("/s72-c/", "/w" + size + "-h" + size2 + "-c/");
+        image[i].src = image[i].src.replace("/s72-c/", "/w" + size + "-h" + size2 + "/");
         image[i].width = size;
         image[i].height = size2;
     }
