@@ -3,12 +3,12 @@ var jenis;
 var nomerhal;
 var lblname1;
 halamanblogger();
-var j = function(a) {
-            var b = m.createElement("script");
-            b.type = "text/javascript";
-            b.src = a;
-            k.appendChild(b)
-        }
+function j(a) {
+     var b = document.createElement("script");
+     b.type = "text/javascript";
+     b.src = a;
+     document.body.appendChild(b)
+}
 function loophalaman(a) {
     var b = '';
     nomerkiri = parseInt(numshowpage / 2);
