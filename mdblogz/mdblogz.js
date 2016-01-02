@@ -142,7 +142,7 @@ function halamanblogger() {
                 nomerhal = 1
             }
 
-            j(d.homePage.replace(/\/$/, "") + "/feeds/posts/summary?max-results=1&alt=json-in-script&callback=hitungtotaldata")
+            j(home_page + "/feeds/posts/summary?max-results=1&alt=json-in-script&callback=hitungtotaldata")
         } else {
             jenis = "label";
             if (a.indexOf("&max-results=") == -1) {
@@ -155,7 +155,7 @@ function halamanblogger() {
                 nomerhal = 1
             }
 
-            j(d.homePage.replace(/\/$/, "") + '/feeds/posts/summary/-/' + lblname1 + '?alt=json-in-script&callback=hitungtotaldata&max-results=1')
+            j(home_page + '/feeds/posts/summary/-/' + lblname1 + '?alt=json-in-script&callback=hitungtotaldata&max-results=1')
         }
     }
 }
