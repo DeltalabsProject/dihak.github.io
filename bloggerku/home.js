@@ -17,4 +17,4 @@ function resizeThumb(parentID, size) {
         image[i].height = size2;
     }
 }
-resizeThumb('Blog1', 255);
+resizeThumb('Blog1', 345);
