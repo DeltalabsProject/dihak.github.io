@@ -3,7 +3,7 @@
 // URL: https://plus.google.com/108949996304093815163/about
 
 var cm_config_defaults = {
-	home_page: "http://www.bloggerku.com/",,
+	home_page: "http://www.bloggerku.com/",
 	max_result: 7,
 	t_w: 32,
 	t_h: 32,
