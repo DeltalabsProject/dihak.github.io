@@ -26,7 +26,7 @@ function loophalaman(a) {
     var c = parseInt(nomerhal) - 1;
     if (nomerhal == 1) {
         if (jenis == "page") {
-            b += '<span class="showpage"><a href="' + home_page + '">' +
+            b += '<span class="showpage disable"><a href="' + home_page + '">' +
                 upPageWord + '</a></span>'
         } else {
             b += '<span class="showpageNum"><a href="/search/label/' +
