@@ -101,7 +101,7 @@ function loophalaman(a) {
                 e + ');return false">' + downPageWord + '</a></span>'
         }
     }
-    if (nomerhal > maksimal) {
+    if (nomerhal == maksimal) {
         if (jenis == "page") {
             b +=
                 '<span class="showpage disable"><a href="#" onclick="redirectpage(' +
