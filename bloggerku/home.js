@@ -26,8 +26,8 @@ function loophalaman(a) {
     var c = parseInt(nomerhal) - 1;
     if (nomerhal == 1) {
         if (jenis == "page") {
-            b += '<span class="showpage disable"><a href="' + home_page + '">' +
-                upPageWord + '</a></span>'
+            b += '<span class="showpage disable"><a href="' + home_page +
+                '">' + upPageWord + '</a></span>'
         } else {
             b += '<span class="showpageNum"><a href="/search/label/' +
                 lblname1 + '?&max-results=' + postperpage + '">' +
@@ -98,6 +98,17 @@ function loophalaman(a) {
         } else {
             b +=
                 '<span class="showpageNum"><a href="#" onclick="redirectlabel(' +
+                e + ');return false">' + downPageWord + '</a></span>'
+        }
+    }
+    if (nomerhal = maksimal) {
+        if (jenis == "page") {
+            b +=
+                '<span class="showpage disable"><a href="#" onclick="redirectpage(' +
+                e + ');return false">' + downPageWord + '</a></span>'
+        } else {
+            b +=
+                '<span class="showpage disable"><a href="#" onclick="redirectlabel(' +
                 e + ');return false">' + downPageWord + '</a></span>'
         }
     }
