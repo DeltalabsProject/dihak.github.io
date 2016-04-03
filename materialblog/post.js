@@ -24,8 +24,8 @@ var randomRelatedIndex, showRelatedPost;
         },
         o = function(b, a) {
             return Math.floor(Math.random() * (a - b + 1)) + b
-        l = function(a) {
         },
+        l = function(a) {
             var p = a.length,
                 c, b;
             if(p === 0) {
@@ -48,7 +48,6 @@ var randomRelatedIndex, showRelatedPost;
         g = function(z) {
             var s = document.getElementById(d.containerId),
                 x = l(z.feed.entry),
-                A = d.widgetStyle,
                 c = d.widgetTitle + '<ul class="related-post">',
                 b = d.newTabLink ? ' target="_blank"' : "",
                 y = '<span style="display:block;clear:both;"></span>',
