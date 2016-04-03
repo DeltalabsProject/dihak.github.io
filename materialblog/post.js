@@ -1,4 +1,3 @@
-
 var randomRelatedIndex, showRelatedPost;
 (function(n, m, k) {
     var d = {
