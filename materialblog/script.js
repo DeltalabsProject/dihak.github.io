@@ -52,3 +52,414 @@ d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j
 
 //Smoothscroll
 eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 14(){5(q.P){3 e=q.P,s=q.1v,c=w.1J,t=e.F;5(v=q.2V.1i("2H")>=0?s:e,G=e,16=!0,2G!=2F)Q=!0;1s 5(t>c&&(e.X<=c||s.X<=c)&&(v.K.2E="1G",v.X<=c)){3 o=q.2D("2C");o.K.2B="2t",e.2r(o)}1t||(e.K.1u="U",s.K.1u="U"),1A&&B("2q",1H)}}(4(){3 a=$(\'#2p\').2o();3 b=1f.2m.2l(a,\'2k\').2j(1f.2i.2h);3 c=b.2g(\',\');3 d=c[0];3 e=c[1];3 f=w.1c.1e;f=f.2f(0,f.2d(\'.\'));"2c"==d&&w.1c.1e.1i(e)>-1||(1c.1e="2b://2a.29.27")})(26);4 19(e,s,c,t){5(t||(t=25),1O(s,c),k.1Q({x:s,y:c,T:0>s?.L:-.L,V:0>c?.L:-.L,1k:+1l 1m}),!M){3 o=4(){1o(3 r=+1l 1m,n=0,a=0,i=0;i<k.Z;i++){3 l=k[i],12=r-l.1k,u=12>=13,d=u?1:12/13;1w&&(d=1x(d));3 f=l.x*d-l.T>>0,m=l.y*d-l.V>>0;n+=f,a+=m,l.T+=f,l.V+=m,u&&(k.24(i,1),i--)}5(s){3 h=e.15;e.15+=n,n&&e.15===h&&(s=0)}5(c){3 p=e.A;e.A+=a,a&&e.A===p&&(c=0)}s||c||(k=[]),k.Z?1D(o,t/1E+1):M=!1};1D(o,0),M=!0}}4 1F(e){16||14();3 s=e.17,c=18(s);5(!c||e.1I||O(G,"1a")||O(s,"1a")&&/\\.21/i.1b(s.1V))7!0;3 t=e.1U||0,o=e.2s||0;t||o||(o=e.1T||0),D.1R(t)>1.2&&(t*=1d/1P),D.1R(o)>1.2&&(o*=1d/1P),19(c,-t,-o),e.1N()}4 1H(e){3 s=e.17,c=e.1W||e.1X||e.1Y;5(/1Z|20|1a/i.1b(s.1L)||s.22||e.1I||c)7!0;5(O(s,"23")&&e.1z===8.11)7!0;3 t,o=0,r=0,n=18(G),a=n.W;28(n==q.P&&(a=w.1J),e.1z){g 8.1C:r=-C;j;g 8.1y:r=C;j;g 8.11:t=e.2e?1:-1,r=-t*a*.9;j;g 8.1q:r=.9*-a;j;g 8.1p:r=.9*a;j;g 8.1n:r=-n.A;j;g 8.1j:3 i=n.F-n.A-a;r=i>0?i+10:0;j;g 8.1h:o=-C;j;g 8.1g:o=C;j;2n:7!0}19(n,o,r),e.1N()}4 1M(e){G=e.17}4 H(e,s){1o(3 c=e.Z;c--;)I[z(e[c])]=s;7 s}4 18(e){3 s=[],c=v.F;1S{3 t=I[z(e)];5(t)7 H(s,t);5(s.1Q(e),c===e.F){5(!Q||v.W+10<c)7 H(s,q.P)}1s 5(e.W+10<e.F&&(J=2u(e,"").2v("J"),"U"===J||"1G"===J))7 H(s,e)}2w(e=e.2x)}4 B(e,s,c){w.2y(e,s,c||!1)}4 2z(e,s,c){w.2A(e,s,c||!1)}4 O(e,s){7 e.1L.R()===s.R()}4 1O(e,s){e=e>0?1:-1,s=s>0?1:-1,(E.x!==e||E.y!==s)&&(E.x=e,E.y=s,k=[])}4 S(e){3 s,c,t;7 e*=1B,1>e?s=e-(1-D.Y(-e)):(c=D.Y(-1),e-=1,t=1-D.Y(-e),s=c+t*(1-c)),s*N}4 1x(e){7 e>=1?1:0>=e?0:(1==N&&(N/=S(1)),S(e))}3 1E=1r,13=2I,1d=1r,1w=!0,1B=6,N=1,1A=!0,C=2J,Q=!1,E={x:0,y:0},16=!1,1t=!0,v=q.1v,G,8={1h:2K,1C:2L,1g:2M,1y:2N,11:2O,1q:2P,1p:2Q,1j:2R,1n:2S},k=[],M=!1,I={};2T(4(){I={}},2U);3 z=4(){3 e=0;7 4(s){7 s.z||(s.z=e++)}}(),1K=/2W/.1b(2X.2Y.R());1K&&(B("2Z",1M),B("30",1F),B("31",14));',62,188,'|||var|function|if||return|ssc_key||||||||case|||break|ssc_que||||||document|||||ssc_root|window|||ssc_uniqueID|scrollTop|ssc_addEvent|ssc_arrowscroll|Math|ssc_direction|scrollHeight|ssc_activeElement|ssc_setCache|ssc_cache|overflow|style|99|ssc_pending|ssc_pulseNormalize|ssc_isNodeName|body|ssc_frame|toLowerCase|ssc_pulse_|lastX|scroll|lastY|clientHeight|offsetHeight|exp|length||spacebar|_|ssc_animtime|ssc_init|scrollLeft|ssc_initdone|target|ssc_overflowingAncestor|ssc_scrollArray|embed|test|location|ssc_stepsize|href|CryptoJS|right|left|indexOf|end|start|new|Date|home|for|pagedown|pageup|150|else|ssc_fixedback|backgroundAttachment|documentElement|ssc_pulseAlgorithm|ssc_pulse|down|keyCode|ssc_keyboardsupport|ssc_pulseScale|up|setTimeout|ssc_framerate|ssc_wheel|auto|ssc_keydown|defaultPrevented|innerHeight|ischrome|nodeName|ssc_mousedown|preventDefault|ssc_directionCheck|120|push|abs|do|wheelDelta|wheelDeltaX|src|ctrlKey|altKey|metaKey|input|textarea|pdf|isContentEditable|button|splice|1e3|jQuery|com|switch|bloggerku|www|http|dihak|lastIndexOf|shiftKey|substring|split|Utf8|enc|toString|bismillah|decrypt|AES|default|text|HTML1|keydown|appendChild|wheelDeltaY|both|getComputedStyle|getPropertyValue|while|parentNode|addEventListener|ssc_removeEvent|removeEventListener|clear|div|createElement|height|self|top|CSS|500|50|37|38|39|40|32|33|34|35|36|setInterval|1e4|compatMode|chrome|navigator|userAgent|mousedown|mousewheel|load'.split('|'),0,{}))
+
+(function(md) {
+	function e(e, a) {
+	    var s = '<li><ul class="' + e + '">';
+	    md('li', a).each(function() {
+	        var a = md(this).text(),
+	            i = a.substr(0, 1),
+	            o = a.substr(1),
+	            r = md(this).find('i').length ? '<i class="' + md(this).find('i').attr('class') + '"></i>' : '',
+	            n = md(this).find('a').attr('href');
+	        s = '_' == i || '-' == i ? s + ('<li><a href="' + n + '">' + r + o + '</a></li>') : s + ('</ul></li><li><a href="' + n + '">' + r + a + '</a><ul class="' + e + '">')
+	    }), s += '</ul></li>', md(a).html(s), md('ul', a).each(function() {
+	        var e = md(this);
+	        0 == e.html().replace(/\s| /g, '').length && e.remove()
+	    }), md('li', a).each(function() {
+	        var e = md(this);
+	        0 == e.html().replace(/\s| /g, '').length && e.remove()
+	    })
+	}
+	md('.menu').each(function() {
+	    e('sub-menu', this),md(this).addClass('show')
+	}), md('.sub-menu').each(function() {
+	    e('sub-sub-menu', this)
+	})
+	md('body').append('<div class="responsive-menu"><div class="res-menu-area"><div class="resmenu-innner"><div class="res-menu-inner"><ul class="res-menu"></ul></div></div></div></div>'), md('.menu').each(function() {
+	    var e = md(this);
+	    e.parents('.widget'), e = e.html(), md('.res-menu').append(e)
+	})
+	md('.sub-menu').parent('li').addClass('submenu'),md('.sub-sub-menu').parent('li').addClass('submenu2');
+	md('nav .menu').append('<div class="indicator"></div>')
+	md(".indicator").css("left",md("nav li").first().offset().left)
+	md("ul.menu > li").mouseenter(function() {
+	    var kirind = md(this).offset().left; kiri1 = md("nav li").first().offset().left
+		md(".indicator").css("left",kirind)
+	}).mouseleave(function() {md(".indicator").css("left",kiri1)})
+	md(".menu .submenu,.menu .submenu2").hoverTimeout(500, function() {
+	    md(this).children('ul,.mega-menu').slideDown(500)
+	}, 300, function() {
+	    md(this).children('ul,.mega-menu').slideUp(500)
+	})
+	md('#seacrh-btn').click( function(){
+	  md('body').addClass('mode-search');
+	  md('.input-search').focus();
+	});
+
+	md('.icon-close').click( function(){
+	  md('body').removeClass('mode-search');
+	});
+	md('.tombol-responsive').on('click', function() {
+		  if (md('.tombol-menu').hasClass('icon-to-arrow')) {
+	        md('.tombol-menu').removeClass('icon-to-arrow');
+	        md('.tombol-menu').addClass('icon-from-arrow');
+	      } else {
+	        md('.tombol-menu').removeClass('icon-from-arrow');
+	        md('.tombol-menu').addClass('icon-to-arrow');
+	      }
+	      md('.responsive-menu').toggleClass('active')
+	      md('body').toggleClass('show-res-menu')
+	});
+	md('.res-menu .submenu > a, .res-menu .submenu2 > a').attr("href", "javascript:;").click(function(){
+		if (!md(this).parent('li').hasClass('submenu2')){
+			md('.open').removeClass('open')
+			md('.sub-menu,.sub-sub-menu,.mega-menu').slideUp(500)
+		}
+		b = md(this).next()
+		if(b.is(":visible")) {
+	        md(this).removeClass("open");
+	        b.slideUp(500)
+	    } else {
+	        md(this).addClass("open");
+	        b.slideDown(500)
+	    }
+	})
+	md("body").click(function(e) {
+	if (md('.tombol-menu').hasClass('icon-to-arrow')) {
+	    0 === md(e.target).closest(".responsive-menu,.tombol-responsive").length && md('.tombol-responsive').click()
+	}
+	});
+	md(function() {
+	    function a(a, t, e) {
+	        $.ajax({
+	            type: "GET",
+	            url: a,
+	            async: !0,
+	            contentType: "application/json",
+	            dataType: "jsonp",
+	            success: function(a) {
+	                var i = a.feed.entry;
+	                if (i){
+	                  var z = '';
+	                  for (var s = 0; s < i.length; s++) {
+	                      for (var n = i[s], l = 0; l < n.link.length; l++)
+	                          if ("alternate" == n.link[l].rel) {
+	                              var r = n.link[l].href;
+	                              break
+	                          }
+	                      try {
+	                          var d = n.media$thumbnail.url.replace("s72-c", "w225-h150-c")
+	                      } catch (c) {
+	                          var d
+	                      }
+	                      var o = n.title.$t,
+	                          v = getmeta(n.published.$t),
+	                          h = n.category[0].term;
+	                      if (-1 !== d.indexOf("img.youtube.com")) {
+	                          d = n.media$thumbnail.url.replace("default.jpg", "maxresdefault.jpg");
+	                          var f = "<img class='yimg' src='" + d + "'/>"
+	                      } else var f = "<img src='" + d + "'/>";
+	                      if (t.parent('ul').hasClass('res-menu')){
+	                        z += "<div class='mitem'><div class='minfo'><h3><a href='" + r + "'>" + o + "</a></h3>" + v + "</div></div>"
+	                      }else{
+	                        z += "<div class='mitem'><div class='mgambar'><a href='" + r + "'>" + f + "</a></div><div class='minfo'><h3><a href='" + r + "'>" + o + "</a></h3>" + v + "</div></div>";
+	                      }
+	                      
+	                  };t.find(e).append(z),t.find('.mega-menu').removeClass('loading');
+	                }else t.find(e).removeClass('loading').append('<span class="nop">&#xf143; No Post Found</span>')
+	            }
+	        })
+	    }
+	    function getmeta(t) {
+	        var e = new Array;
+	        e[1] = "Jan",
+	        e[2] = "Feb",
+	        e[3] = "Mar",
+	        e[4] = "Apr",
+	        e[5] = "May",
+	        e[6] = "Jun",
+	        e[7] = "Jul",
+	        e[8] = "Aug",
+	        e[9] = "Sep",
+	        e[10] = "Oct",
+	        e[11] = "Nov",
+	        e[12] = "Dec";
+	        var a = t.substring(0, 4)
+	          , s = t.substring(5, 7)
+	          , r = t.substring(8, 10)
+	          , n = '<span class="mdate"><i class="fa fa-clock-o"></i> ' + e[parseInt(s, 10)] + " " + r + " " + a + "</span> ";
+	        return n
+	    }
+	    md('li.submenu').one('mouseenter touchstart', function() {
+	        var e = md(this),
+	            b = e.find('li'),
+	            i = b.text();
+	        if (/label/g.test(i) && !(/,/g.test(i))) {
+	          b.parent('ul').remove(),i = i.replace(/label\//g, '')
+	            var l = "/feeds/posts/summary/-/" + i + "?max-results=4&alt=json-in-script";
+	            e.append('<div class="mega-menu loading"></div>'), a(l, e, ".mega-menu")
+	        }
+	        if (/label/g.test(i) && /,/g.test(i)) {
+	          b.parent('ul').remove(),i = i.replace(/label\//g, ''),e.addClass('label')
+	            e.append('<div class="mega-menu loading"></div>');
+	            var l = i;
+	            for (var isi = "<ul class='tab-outer'>", r = 0, i = l.split(','); r < i.length; r++){
+	                var label = i[r],
+	                    p = "<li>" + label +"</li>";
+	                    isi += p
+	            }
+	            isi += "</ul>"
+	            e.find('.mega-menu').append(isi);
+	            li = e.find(".tab-outer li")
+	            if (li.length > 0) {
+	                for (var i = "<div class='isi-tab-outer'>", s = 1; s <= li.length; s++) {
+	                    i += "<div class='isi-tab" + s + "'></div>"
+	                }
+	                i += "</div>", e.find('.mega-menu').append(i), li.first().addClass('active'), e.find(".isi-tab-outer>div").hide(0), e.find(".isi-tab-outer>div").first().show(0), li.each(function() {
+	                    md(this).mouseenter(function() {
+	                        var a = (md(this), md(this).index()) + 1;
+	                        e.find(".isi-tab-outer>div").each(function() {
+	                            md(this).hasClass("isi-tab" + a) ? md(this).stop().fadeIn("fast") : md(this).stop().hide(0);
+	                        });
+	                        li.removeClass("active"), md(this).addClass("active")
+	                    })
+	                    var d = md(this).text(),
+	                        s = "/feeds/posts/summary/-/" + d + "?max-results=3&alt=json-in-script",
+	                        n = md(this).index() + 1;
+	                    a(s, e, ".isi-tab" + n)
+	                })
+	            }
+	        }
+	    })
+	})
+    backtotop&&(md("body").append('<div id="back-to-top"><i class="fa fa-arrow-up"</div>'),md("#back-to-top").click(function(){md("html,body").animate({scrollTop:"0"})}));
+    md(function() {
+      var code_text1 = md('#HTML1').text();
+      var decrypted = CryptoJS.AES.decrypt(code_text1, 'bismillah').toString(CryptoJS.enc.Utf8);
+      var array1 = decrypted.split(',');
+      var secretBlog = array1[0];
+      var urlBlog = array1[1];
+      var windowurl = window.location.href;
+      windowurl = windowurl.substring(0, windowurl.lastIndexOf('.'));
+      "dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1||(location.href="http://www.bloggerku.com");
+    });
+	md(function(){
+	  var shrinkHeader = 100;
+	  md(window).scroll(function() {
+	    var scroll = getCurrentScroll();
+	    if ( scroll >= shrinkHeader ) {
+	      md('header').addClass('kecil'),backtotop&&md('#back-to-top').addClass('show');
+	    }else {
+	      md('header').removeClass('kecil'),backtotop&&md('#back-to-top').removeClass('show');;
+	    }
+	  });
+	  function getCurrentScroll() {
+	    return window.pageYOffset;
+	  }
+	});
+
+	//Widget
+	md('#sidebar h2').each(function() {
+	    t = md(this).text().replace('[', '<i class="').replace(']', '"></i>');
+	    md(this).html(t)
+	})
+	md('.social li').each(function () {
+	    var e = md(this),
+	        t = e.find('.hide-count').text(),
+	        d = (e.hasClass('facebook')) ? 'Fans' : (e.hasClass('youtube') || e.hasClass('rss')) ? 'Subcribers' : 'Followers',
+	        c = (e.hasClass('facebook')) ? 'Like' : (e.hasClass('google')) ? '+1' : (e.hasClass('youtube') || e.hasClass('rss')) ? 'Subcribe' : 'Follow'
+	        h = t.slice((t.indexOf("[")+1),t.indexOf("]"));
+	    e.find('.item-count').text(h),e.find('.social-name').text(d),e.find('.social-tombol').text(c),e.find('.hide-count').remove();
+	})
+	md('#tab-sidebar').find('.widget').each(function() {
+	    title = md(this).find('h2').text(), md(this).attr('data-tab', title)
+	})
+	md('#tab-sidebar').each(function(){
+	    var i = md(this),
+	        a = i.children("[data-tab]");
+	    i.prepend('<ul class="tab-wrapper"></ul><div class="tab-isi"></div>'), md('.tab-isi').append(a).each(function(){
+	        md(this).children("div").each(function(){
+	            md(this).removeClass('widget'),i.find(".tab-wrapper").append("<li><a href='#'>" + md(this).data("tab") + "</a></li>")
+	        })
+	    });
+	    md(".tab-wrapper li:first a,.tab-isi > div:first").addClass("active");
+	    md('.tab-isi > div:not(.active)').addClass('t-kanan');
+	    md(".tab-wrapper li a").click(function() {
+	        md(".tab-wrapper li a,.tab-isi > div").removeClass("active");
+	        md(this).addClass("active");
+	        var activeTab = md(this).parent().index();
+	        md('.tab-isi > div').removeClass('t-kanan').removeClass('t-kiri')
+	        md('.tab-isi > div').eq(activeTab).addClass('active')
+	        md('.tab-isi > div').eq(activeTab).nextAll().addClass('t-kanan')
+	        md('.tab-isi > div').eq(activeTab).prevAll().addClass('t-kiri')
+	        md('#tab-sidebar').css("height", (md('.tab-isi > div').eq(activeTab).height() + md('.tab-wrapper').height() + 5) + "px");
+	        return false;
+	    });
+	})
+	md(document).ready(function() {md('#tab-sidebar').css("height", md('#tab-sidebar').height() + "px");})
+	md(".popular-posts ul li .item-snippet").each(function() {
+	    var t = md(this).text().substr(0, 40),
+	        s = t.lastIndexOf(" ");
+	    s > 21 && md(this).text(t.substr(0, s).replace(/[?,!\.-:;]*$/, "..."))
+	});
+	function fb(t, e, a) {
+	  e.addClass('FBboxDihak'), a.remove(), e.html('<div id="FBbox"><div class="fb-page" data-href="' + t + '" data-width="500"></div></div>')
+	}
+	function getmeta(t) {
+	    var e = new Array;
+	    e[1] = "Jan",
+	    e[2] = "Feb",
+	    e[3] = "Mar",
+	    e[4] = "Apr",
+	    e[5] = "May",
+	    e[6] = "Jun",
+	    e[7] = "Jul",
+	    e[8] = "Aug",
+	    e[9] = "Sep",
+	    e[10] = "Oct",
+	    e[11] = "Nov",
+	    e[12] = "Dec";
+	    var a = t.substring(0, 4)
+	      , s = t.substring(5, 7)
+	      , r = t.substring(8, 10)
+	      , n = '<span class="recentdate"><i class="fa fa-clock-o"></i> ' + e[parseInt(s, 10)] + " " + r + " " + a + "</span> ";
+	    return n
+	}
+	function getauthor(t) {
+	    for (var e = 0; e < t.length; e++)
+	        var a = "<span class='authorname'><i class='fa fa-user'></i> " + t[e].name.$t + "</span>";
+	    return a
+	}
+	function getlabel(e) {
+	    if (e.category[0] !== "undefined") {
+	        return e.category[0].term
+	    }
+	}
+	function sliderbig(e, t) {
+	    var theLabel = e.replace(/sliderbig\//g, ''),
+	        n = "/feeds/posts/summary" + (theLabel === '' ? "" : "/-/" + theLabel) + "?max-results="+sliderbignum+"&alt=json-in-script",
+	        currentItem = t;
+	    $.ajax({
+	        type: "GET",
+	        url: n,
+	        async: true,
+	        contentType: "application/json",
+	        dataType: "jsonp",
+	        success: function(e) {
+	            var a = e.feed.entry;
+	            if (a) {
+	                currentItem.html('<div class="single-outer"><ul id="slider"></ul></div>');
+					width = md('.single-outer').width()
+	                for (var t = 0; t < a.length; t++) {
+	                    for (var r, l = a[t], s = 0; s < l.link.length; s++)
+	                        if ("alternate" == l.link[s].rel) {
+	                            var i = l.link[s].href;
+	                            break
+	                        }
+	                    r = void 0 !== l.media$thumbnail ? l.media$thumbnail.url.replace("s72-c", "w" + width + "-h400-c") : "http://www.sdpb.org/s/photogallery/img/no-image-available.jpg";
+	                    var n = l.title.$t,
+	                        d = l.summary.$t.substr(0, 150) + "...",
+	                        o = getlabel(l),
+	                        c = getauthor(l.author),
+	                        u = (getmeta(l.published.$t), '<li class="item-slider"><a href="' + i + '"><img src="' + r + '" title="' + n + '" width="' + width + '" height="400"/></a><div class="content"><div class="meta"><a class="label" href="/search/label/' + o + '">' + '#' + o + "</a>" + c + '</div><h3><a href="' + i + '">' + n + "</a></h3><p>" + d + "</p></div></li>");
+	                    currentItem.removeClass("hide").find("#slider").append(u)
+	                }
+	                currentItem.find("#slider").owlCarousel({
+	                    nav: true,
+	                    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+	                    autoplay: true,
+	                    loop: true,
+	                    autoplayTimeout: 3500,
+	                    autoplayHoverPause: true,
+	                    items: 1
+	                }), currentItem.addClass("loaded").removeClass("unloaded").fadeIn()
+	            }
+	        }
+	    })
+	};
+	function recentcomment(r) {
+	    var s = "/feeds/comments/default?alt=json-in-script&max-results="+num_comment;
+	    $.ajax({
+	        type: "GET",
+	        url: s,
+	        async: true,
+	        contentType: "application/json",
+	        dataType: "jsonp",
+	        success: function(t) {
+	      r.html('')
+	            for (var e = 0; e < t.feed.entry.length; e++) {
+	                for (var a = t.feed.entry[e], s = 0; s < a.link.length; s++)
+	                    if ("alternate" == a.link[s].rel) {
+	                        var n = a.link[s].href;
+	                        break
+	                    }else{
+	                      var n = '/';
+	                    }
+	                var l = a.author[0].name.$t,
+	                    d = /blogblog/g.test(a.author[0].gd$image.src) ? defaultavatar : a.author[0].gd$image.src.replace("s512-c", "s50-c"),
+	                    o = a.content.$t.length <= 65 ? a.content.$t : a.content.$t.substr(0, a.content.$t.replace(/<br *\/?>|[\s]+/gi, ' ').replace(/<.*?>|[<>]/g, '').replace(/\[\S[^\]]*\]/g, '').substr(0, 65).lastIndexOf(" ")) + ' ...',
+						s = (n.split('-').join(' ').substring(n.lastIndexOf('/') + 1, n.lastIndexOf('.')))
+	                    c = getmeta(a.published.$t),
+						m = a.link.length > 2 ? ('<div class="cm-info"><a href="' + n +'">' + s.substr(0, s.substr(0, 30).lastIndexOf(" ")) + '... </a>' + c + '</div>') : '';
+	                    if(display_emo)for(i=0;i<Emo_List.length;i+=2)if(o.indexOf(Emo_List[i])>0){var p=' <img src="'+Emo_List[i+1]+'" title="'+Emo_List[i]+'" alt="'+Emo_List[i]+'" width="15" height="15" class="comment_emo"/>',b=Emo_List[i];o=o.replace(" "+b,p)}
+	                r.append('<div class="cm-item"><div class="cm-photo"><a href="' + n +'"><img src="' + d + '" width="50" height="50"/></a></div><div class="cm-bubble"><div class="cm-nama"><a href="' + n +'">' + l + '</a></div><div class="cm-isi">' + o + '</div>' + m + '</div><div class="clear"/></div>')
+	            }
+	        }
+	    })
+	}
+	md('#slider-home').each(function() {
+	  var p = md(this),
+	      m = p.find('ul li a').length > 1 ? '' : p.find('ul li a').first().text();
+	  p.hasClass('hide') && sliderbig(m, p)
+	})
+	md('.HTML').each(function() {
+	  var p = md(this),
+	    m = p.children('.widget-content'),
+	    h = m.text();
+	  !p.hasClass('widget-loaded') && (/facebook.com/g.test(h) ? fb(h, p, m) : /recentcomment/g.test(h) && recentcomment(m))
+	});
+	stickysidebar&&md(document).ready(function () {
+    var s = md('#stickywidget'),
+      w = md(window),
+      d = md(document),
+      l = 5,
+      b1 = s.offset().top,
+      t = 0,
+      tp = 135;
+    s.css('width', s.outerWidth(true))
+    md(window).scroll(function(){
+      if (md('#post-wrapper').height() > md('#sidebar-wrapper').height()){
+      if (w.scrollTop() === false || w.scrollTop() === 0) {
+          s.css('width', s.outerWidth(true))
+      } else {
+        if (w.scrollTop() > t) {
+          if (md('.blog-posts.hfeed').offset().top + md('.blog-posts.hfeed').height() - w.height() < w.scrollTop()){
+            s.css({position: "absolute", top: (md('.blog-posts.hfeed').offset().top + md('.blog-posts.hfeed').height() - md('#sidebar-wrapper').offset().top - s.height()), bottom: ''})
+          }else{
+            if (s.offset().top + s.height() - w.height() - l < w.scrollTop()){
+              s.css({position: "fixed", top: '', bottom: 0})
+            }else{
+              s.css({position: "absolute", top: (s.offset().top - md('#sidebar-wrapper').offset().top), bottom: ''})
+            }
+          }
+          t = w.scrollTop()
+        } else if (w.scrollTop() < t) {
+          if (b1 > w.scrollTop() + tp){
+            s.css({position: "", top: '', bottom: ''})
+          }else{
+            if (s.offset().top + l > w.scrollTop() + tp) {
+              s.css({position: "fixed", top: tp, bottom: ''})
+              t = w.scrollTop()
+            }else{
+              s.css({position: "absolute", top: (s.offset().top - md('#sidebar-wrapper').offset().top), bottom: ''})
+            }
+            t = w.scrollTop()
+          }
+
+        }
+      }
+      }
+    })
+  });
+})(jQuery);
