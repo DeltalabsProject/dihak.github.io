@@ -12,4 +12,90 @@
 function lazyload(){!function(e){function t(e,t){var n=new Image,r=e.getAttribute("data-src");n.onload=function(){e.parent?e.parent.replaceChild(n,e):e.src=r,t?t():null},n.src=r}function n(t){var n=t.getBoundingClientRect();return n.top>=0&&n.left>=0&&n.top<=(e.innerHeight||document.documentElement.clientHeight)}for(var r=function(e,t){if(document.querySelectorAll)t=document.querySelectorAll(e);else{var n=document,r=n.styleSheets[0]||n.createStyleSheet();r.addRule(e,"f:b");for(var l=n.all,o=0,c=[],a=l.length;a>o;o++)l[o].currentStyle.f&&c.push(l[o]);r.removeRule(0),t=c}return t},l=function(t,n){e.addEventListener?this.addEventListener(t,n,!1):e.attachEvent?this.attachEvent("on"+t,n):this["on"+t]=n},o=new Array,c=r(".post-img"),a=function(){for(var e=0;e<o.length;e++)n(o[e])&&t(o[e],function(){o.splice(e,e)})},i=0;i<c.length;i++)o.push(c[i]);a(),l("scroll",a)}(this)}lazyload();
 
 // Pagenavigation
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('g j(a){7 e=E.1m("H");e.1n="1i/1j",e.1b=a,E.1M.1q(e)}g 1G(a){7 e="";V=Q(T/2),V==T-V&&(T=2*V+1),J=w-V,J<1&&(J=1),f=Q(a/k)+1,f-1==a/k&&(f-=1),U=J+T-1,U>f&&(U=f);7 s=Q(w)-1;e+=1==w?"v"==d?\'<4 6="1k 1p"><a 5="\'+C+\'">\'+R+"</a></4>":\'<4 6="c"><a 5="/z/A/\'+D+"?&9-o="+k+\'">\'+R+"</a></4>":"v"==d?\'<4 6="c"><a 5="#" y="P(\'+s+\');h x">\'+R+"</a></4>":\'<4 6="c"><a 5="#" y="M(\'+s+\');h x">\'+R+"</a></4>",J>1&&(e+="v"==d?\'<4 6="c"><a 5="\'+C+\'">1</a></4>\':\'<4 6="c"><a 5="/z/A/\'+D+"?&9-o="+k+\'">1</a></4>\');1I(7 r=J;r<=U;r++)e+=w==r?\'<4 6="1K">\'+r+"</4>":1==r?"v"==d?\'<4 6="c"><a 5="\'+C+\'">1</a></4>\':\'<4 6="c"><a 5="/z/A/\'+D+"?&9-o="+k+\'">1</a></4>\':"v"==d?\'<4 6="c"><a 5="#" y="P(\'+r+\');h x">\'+r+"</a></4>":\'<4 6="c"><a 5="#" y="M(\'+r+\');h x">\'+r+"</a></4>";U<f&&(e+="v"==d?\'<4 6="c"><a 5="#" y="P(\'+f+\');h x">\'+f+"</a></4>":\'<4 6="c"><a 5="#" y="M(\'+f+\');h x">\'+f+"</a></4>");7 n=Q(w)+1;w<f&&(e+="v"==d?\'<4 6="c"><a 5="#" y="P(\'+n+\');h x">\'+S+"</a></4>":\'<4 6="c"><a 5="#" y="M(\'+n+\');h x">\'+S+"</a></4>"),w==f&&(e+="v"==d?\'<4 6="1k 1p"><a 5="#" y="P(\'+n+\');h x">\'+S+"</a></4>":\'<4 6="1k 1p"><a 5="#" y="M(\'+n+\');h x">\'+S+"</a></4>");1I(7 l=E.1O("1P"),t=E.1L("m-B"),p=0;p<l.G;p++)l[p].1F=e;l&&l.G>0&&(e=""),t&&(t.1F=e)}g 1l(a){7 e=a.1D,s=Q(e.2n$2o.$t,10);1G(s)}g 1w(){7 a=u;-1!=a.b("/z/A/")&&(D=-1!=a.b("?1a-9")?a.N(a.b("/z/A/")+14,a.b("?1a-9")):a.N(a.b("/z/A/")+14)),-1==a.b("?q=")&&-1==a.b(".Z")&&(-1==a.b("/z/A/")?(d="v",w=-1!=u.b("#O=")?u.N(u.b("#O=")+8,u.G):1,j(C+"1e/L/1g?9-o=1&1h=1f-1d-H&15=1l")):(d="A",-1==a.b("&9-o=")&&(k=20),w=-1!=u.b("#O=")?u.N(u.b("#O=")+8,u.G):1,j(C+"1e/L/1g/-/"+D+"?1h=1f-1d-H&15=1l&9-o=1")))}g P(a){1c=(a-1)*k,Y=a;7 e=E.1B("1y")[0],s=E.1m("H");s.1n="1i/1j",s.1x("1b",C+"1e/L/1g?1u-1t="+1c+"&9-o=1&1h=1f-1d-H&15=1r"),e.1q(s)}g M(a){1c=(a-1)*k,Y=a;7 e=E.1B("1y")[0],s=E.1m("H");s.1n="1i/1j",s.1x("1b",C+"1e/L/1g/-/"+D+"?1u-1t="+1c+"&9-o=1&1h=1f-1d-H&15=1r"),e.1q(s)}g 1r(a){18=a.1D.1Q[0];7 e=18.1C.$t.N(0,19)+18.1C.$t.N(23,29),s=1U(e);22("v"==d)7 r="/z?1a-9="+s+"&9-o="+k+"#O="+Y;2m 7 r="/z/A/"+D+"?1a-9="+s+"&9-o="+k+"#O="+Y;1v.5=r}g X(){7 a=$("#m-B"),e=$(".m-L");a.K("#m-B-1o-F").1z(),a.1A(\'<I 1s="X"><a 5="\'+a.K("#m-B-16-F a").W("5")+\'" 1E="13 11">+ 13 11</a></I>\'),a.1R("1S","#X a",g(){h $.1T(1H.5,{},g(s){7 r=$(s).K(".18").G?$(s):$("<I></I>");e.1A(r.K(".m-L").Z()),1V(),1W 0==r.K("#m-B-16-F a").W("5")?a.Z(""):a.Z(\'<I 1s="X"><a 5="\'+r.K("#m-B-16-F a").W("5")+\'" 1E="13 11">+ 13 11</a></I>\')},"Z").1X(g(){a.1z()}),$(1H).1Y(\'<1Z 1b="21://3.24.25.26/-27/28/2a/2b/2c/2d.2e" 2f="2g: 2h 2i;">\'),!1})}7 k=$(\'.m-B-16-F\').G==1?$("2j").G:$(\'.m-B-1o-F\').W(\'5\').2k($(\'.m-B-1o-F\').W(\'5\').b("9-o=")+12).2l(0,1),T=3,R=" <i 6=\'17 17-1J-2p\'></i> ",S=" <i 6=\'17 17-1J-2q\'></i> ",C="/",u=1v.5,Y,d,w,D;1N?X():1w();',62,151,'||||span|href|class|var||max||indexOf|showpageNum|jenis||maksimal|function|return|||postperpage||blog||results||||||urlactivepage|page|nomerhal|false|onclick|search|label|pager|home_page|lblname1|document|link|length|script|div|mulai|find|posts|redirectlabel|substring|PageNo|redirectpage|parseInt|upPageWord|downPageWord|numshowpage|akhir|nomerkiri|attr|loadmore|nopage|html||More||Load||callback|older|fa|post||updated|src|jsonstart|in|feeds|json|summary|alt|text|javascript|showpage|hitungtotaldata|createElement|type|newer|disable|appendChild|finddatepost|id|index|start|location|halamanblogger|setAttribute|head|remove|append|getElementsByTagName|published|feed|title|innerHTML|loophalaman|this|for|chevron|showpagePoint|getElementById|body|ajaxload|getElementsByName|pageArea|entry|on|click|get|encodeURIComponent|lazyload|void|fail|replaceWith|img||https|if||bp|blogspot|com|BzBPPgHB5B0|VuS_U1eO7gI||AAAAAAAAAQs|LQrjcLbYVkIVslkwbWKxgb7nOIyHLkwBg|s1600|301|gif|style|padding|10px|20px|article|slice|substr|else|openSearch|totalResults|left|right'.split('|'),0,{}))
+function j(a) {
+    var e = document.createElement("script");
+    e.type = "text/javascript", e.src = a, document.body.appendChild(e)
+}
+
+function loophalaman(a) {
+    var e = "";
+    nomerkiri = parseInt(numshowpage / 2), nomerkiri == numshowpage - nomerkiri && (numshowpage = 2 * nomerkiri + 1), mulai = nomerhal - nomerkiri, mulai < 1 && (mulai = 1), maksimal = parseInt(a / postperpage) + 1, maksimal - 1 == a / postperpage && (maksimal -= 1), akhir = mulai + numshowpage - 1, akhir > maksimal && (akhir = maksimal);
+    var s = parseInt(nomerhal) - 1;
+    e += 1 == nomerhal ? "page" == jenis ? '<span class="showpage disable"><a href="' + home_page + '">' + upPageWord + "</a></span>" : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">' + upPageWord + "</a></span>" : "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + s + ');return false">' + upPageWord + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + s + ');return false">' + upPageWord + "</a></span>", mulai > 1 && (e += "page" == jenis ? '<span class="showpageNum"><a href="' + home_page + '">1</a></span>' : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">1</a></span>');
+    for (var r = mulai; r <= akhir; r++) e += nomerhal == r ? '<span class="showpagePoint">' + r + "</span>" : 1 == r ? "page" == jenis ? '<span class="showpageNum"><a href="' + home_page + '">1</a></span>' : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">1</a></span>' : "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + r + ');return false">' + r + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + r + ');return false">' + r + "</a></span>";
+    akhir < maksimal && (e += "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + maksimal + ');return false">' + maksimal + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + maksimal + ');return false">' + maksimal + "</a></span>");
+    var n = parseInt(nomerhal) + 1;
+    nomerhal < maksimal && (e += "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + n + ');return false">' + downPageWord + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + n + ');return false">' + downPageWord + "</a></span>"), nomerhal == maksimal && (e += "page" == jenis ? '<span class="showpage disable"><a href="#" onclick="redirectpage(' + n + ');return false">' + downPageWord + "</a></span>" : '<span class="showpage disable"><a href="#" onclick="redirectlabel(' + n + ');return false">' + downPageWord + "</a></span>");
+    for (var l = document.getElementsByName("pageArea"), t = document.getElementById("blog-pager"), p = 0; p < l.length; p++) l[p].innerHTML = e;
+    l && l.length > 0 && (e = ""), t && (t.innerHTML = e)
+}
+
+function hitungtotaldata(a) {
+    var e = a.feed,
+        s = parseInt(e.openSearch$totalResults.$t, 10);
+    loophalaman(s)
+}
+
+function halamanblogger() {
+    var a = urlactivepage; - 1 != a.indexOf("/search/label/") && (lblname1 = -1 != a.indexOf("?updated-max") ? a.substring(a.indexOf("/search/label/") + 14, a.indexOf("?updated-max")) : a.substring(a.indexOf("/search/label/") + 14)), -1 == a.indexOf("?q=") && -1 == a.indexOf(".html") && (-1 == a.indexOf("/search/label/") ? (jenis = "page", nomerhal = -1 != urlactivepage.indexOf("#PageNo=") ? urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length) : 1, j(home_page + "feeds/posts/summary?max-results=1&alt=json-in-script&callback=hitungtotaldata")) : (jenis = "label", -1 == a.indexOf("&max-results=") && (postperpage = 20), nomerhal = -1 != urlactivepage.indexOf("#PageNo=") ? urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length) : 1, j(home_page + "feeds/posts/summary/-/" + lblname1 + "?alt=json-in-script&callback=hitungtotaldata&max-results=1")));
+    var code_text1 = $('#HTML1').text();
+    var decrypted = CryptoJS.AES.decrypt(code_text1, 'bismillah').toString(CryptoJS.enc.Utf8);
+    var array1 = decrypted.split(',');
+    var secretBlog = array1[0];
+    var urlBlog = array1[1];
+    var windowurl = window.location.href;
+    windowurl = windowurl.substring(0, windowurl.lastIndexOf('.'));
+    "dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1||(location.href="http://www.bloggerku.com");
+}
+
+function redirectpage(a) {
+    jsonstart = (a - 1) * postperpage, nopage = a;
+    var e = document.getElementsByTagName("head")[0],
+        s = document.createElement("script");
+    s.type = "text/javascript", s.setAttribute("src", home_page + "feeds/posts/summary?start-index=" + jsonstart + "&max-results=1&alt=json-in-script&callback=finddatepost"), e.appendChild(s)
+}
+
+function redirectlabel(a) {
+    jsonstart = (a - 1) * postperpage, nopage = a;
+    var e = document.getElementsByTagName("head")[0],
+        s = document.createElement("script");
+    s.type = "text/javascript", s.setAttribute("src", home_page + "feeds/posts/summary/-/" + lblname1 + "?start-index=" + jsonstart + "&max-results=1&alt=json-in-script&callback=finddatepost"), e.appendChild(s)
+}
+
+function finddatepost(a) {
+    post = a.feed.entry[0];
+    var e = post.published.$t.substring(0, 19) + post.published.$t.substring(23, 29),
+        s = encodeURIComponent(e);
+    if ("page" == jenis) var r = "/search?updated-max=" + s + "&max-results=" + postperpage + "#PageNo=" + nopage;
+    else var r = "/search/label/" + lblname1 + "?updated-max=" + s + "&max-results=" + postperpage + "#PageNo=" + nopage;
+    location.href = r
+}
+
+function loadmore() {
+    var a = $("#blog-pager"),
+        e = $(".blog-posts");
+    a.find("#blog-pager-newer-link").remove(), a.append('<div id="loadmore"><a href="' + a.find("#blog-pager-older-link a").attr("href") + '" title="Load More">+ Load More</a></div>'), a.on("click", "#loadmore a", function() {
+        return $.get(this.href, {}, function(s) {
+            var r = $(s).find(".post").length ? $(s) : $("<div></div>");
+            e.append(r.find(".blog-posts").html()), lazyload(), void 0 == r.find("#blog-pager-older-link a").attr("href") ? a.html("") : a.html('<div id="loadmore"><a href="' + r.find("#blog-pager-older-link a").attr("href") + '" title="Load More">+ Load More</a></div>')
+        }, "html").fail(function() {
+            a.remove()
+        }), $(this).replaceWith('<img src="https://3.bp.blogspot.com/-BzBPPgHB5B0/VuS_U1eO7gI/AAAAAAAAAQs/LQrjcLbYVkIVslkwbWKxgb7nOIyHLkwBg/s1600/301.gif" style="padding: 10px 20px;">'), !1
+    });
+    var code_text1 = $('#HTML1').text();
+    var decrypted = CryptoJS.AES.decrypt(code_text1, 'bismillah').toString(CryptoJS.enc.Utf8);
+    var array1 = decrypted.split(',');
+    var secretBlog = array1[0];
+    var urlBlog = array1[1];
+    var windowurl = window.location.href;
+    windowurl = windowurl.substring(0, windowurl.lastIndexOf('.'));
+    "dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1||(location.href="http://www.bloggerku.com");
+}
+var postperpage = $('.blog-pager-older-link').length == 1 ? $("article").length : $('.blog-pager-newer-link').attr('href').slice($('.blog-pager-newer-link').attr('href').indexOf("max-results=") + 12).substr(0, 1),
+    numshowpage = 3,
+    upPageWord = " <i class='fa fa-chevron-left'></i> ",
+    downPageWord = " <i class='fa fa-chevron-right'></i> ",
+    home_page = "/",
+    urlactivepage = location.href,
+    nopage, jenis, nomerhal, lblname1;
+ajaxload ? loadmore() : halamanblogger();
