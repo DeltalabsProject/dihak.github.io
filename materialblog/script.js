@@ -202,6 +202,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 	})
     backtotop&&(md("body").append('<div id="back-to-top"><i class="fa fa-arrow-up"</div>'),md("#back-to-top").click(function(){md("html,body").animate({scrollTop:"0"})}));
     md(function() {
+      notload=true;
       var code_text1 = $('#HTML1').text();
       var decrypted = CryptoJS.AES.decrypt(code_text1, 'bismillah').toString(CryptoJS.enc.Utf8);
       var array1 = decrypted.split(',');
@@ -209,7 +210,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       var urlBlog = array1[1];
       var windowurl = window.location.href;
       windowurl = windowurl.substring(0, windowurl.lastIndexOf('.'));
-      if(!("dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1)){
+      if(!("dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1)&&notload){
       	md('<div class="ads" style="margin-bottom: 20px;border-radius: 5px;overflow: hidden;box-shadow: 0 3px 1px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);display: inherit;"><a href="http://www.bloggerku.com/" target="_blank" title="Kumpulan Tutorial Blogger"><img alt="bloggerku" src="https://3.bp.blogspot.com/-6kCkIiT4sRo/Vy_t7jexLCI/AAAAAAAAAY0/S4FUZ4w3vPAHbVirMuT9I2W2RlpKV8iAACLcB/s1600/iklan%2Bbloggerku.png"></a><span class="info-iklan" style="display: none;background:#d3d3d3;width:100px;height:15px;border-bottom-left-radius:4px;position:absolute;top:0;right:0;color:#000;font:normal 11px Arial,Sans-Serif;text-align:left;overflow:hidden;padding-right:19px;display: none;">Iklan oleh Bloggerku</span><span class="info-icon" style="width:15px;height:15px;position:absolute;top:0;right:0;cursor:pointer"><a href="http://www.bloggerku.com/p/pasang-iklan.html" target="_blank"><img alt="info" src="http://2.bp.blogspot.com/--ivaHIgXThk/UnJWU80FLhI/AAAAAAAAF_Y/WrH-8aYijGw/s1600/info-iklan.png" style="vertical-align: top;"></a></span></div>').insertBefore('#sidebar-atas');
       	md('.info-icon').hover(function() {
       		md('.info-iklan').toggle();
@@ -218,6 +219,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       	if (md('#creditmd').html()!=('Template By <a href="http://www.bloggerku.com/" target="_blank" title="Bloggerku">Bloggerku</a>')) {
       		location.href="http://www.bloggerku.com"
       	};
+      	notload=false;
       }
     });
 	md(function(){
@@ -256,7 +258,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       var urlBlog = array1[1];
       var windowurl = window.location.href;
       windowurl = windowurl.substring(0, windowurl.lastIndexOf('.'));
-      if(!("dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1)){
+      if(!("dihak"==secretBlog&&window.location.href.indexOf(urlBlog)>-1)&&notload){
       	md('<div class="ads" style="margin-bottom: 20px;border-radius: 5px;overflow: hidden;box-shadow: 0 3px 1px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);display: inherit;"><a href="http://www.bloggerku.com/" target="_blank" title="Kumpulan Tutorial Blogger"><img alt="bloggerku" src="https://3.bp.blogspot.com/-6kCkIiT4sRo/Vy_t7jexLCI/AAAAAAAAAY0/S4FUZ4w3vPAHbVirMuT9I2W2RlpKV8iAACLcB/s1600/iklan%2Bbloggerku.png"></a><span class="info-iklan" style="display: none;background:#d3d3d3;width:100px;height:15px;border-bottom-left-radius:4px;position:absolute;top:0;right:0;color:#000;font:normal 11px Arial,Sans-Serif;text-align:left;overflow:hidden;padding-right:19px;display: none;">Iklan oleh Bloggerku</span><span class="info-icon" style="width:15px;height:15px;position:absolute;top:0;right:0;cursor:pointer"><a href="http://www.bloggerku.com/p/pasang-iklan.html" target="_blank"><img alt="info" src="http://2.bp.blogspot.com/--ivaHIgXThk/UnJWU80FLhI/AAAAAAAAF_Y/WrH-8aYijGw/s1600/info-iklan.png" style="vertical-align: top;"></a></span></div>').insertBefore('#sidebar-atas');
       	md('.info-icon').hover(function() {
       		md('.info-iklan').toggle();
@@ -265,6 +267,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       	if (md('#creditmd').html()!=('Template By <a href="http://www.bloggerku.com/" target="_blank" title="Bloggerku">Bloggerku</a>')) {
       		location.href="http://www.bloggerku.com"
       	};
+      	notload=false;
       }
     });
 	md('#tab-sidebar').find('.widget').each(function() {
